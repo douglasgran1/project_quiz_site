@@ -1,0 +1,205 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	background-image: url('../imagens/background.png');
+}
+
+#listamenu{
+display: flex;
+justify-content: space-between; /**/
+align-items: center; /*centraliza os itens*/
+height: 70px; /*altura*/
+width: 100%; /*largura*/
+color: white; /*cor das letras*/
+background-color: black; /*cor do fundo*/ 
+}
+
+
+
+a{
+margin: 0 3px;
+text-decoration: none;
+color: white;
+}
+
+*{
+font-family: Circular, spotify-circular,   Helvetica, Arial, sans-serif !important;
+}
+#imgperfil2{
+	width: 300px;
+	height: 140px;
+}
+#imgperfil2 .img2{
+border-radius: 500px;
+width: 110px;
+display: block;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#menulateral{
+	background-color: rgb(28,28,28);
+	width: 300px;
+	height: 100vh;
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+}
+
+#menulateral button{
+	background-color: rgb(28,28,28);
+	text-align: left;
+	font-size: 20px;
+	border: none;
+	border-top: 3px solid rgb(31, 31, 31);
+	border-bottom: 3px solid rgb(31, 31, 31);
+	transition-duration: 0.5s;
+	cursor: pointer;
+	outline: none;
+}
+
+button a{
+	color:rgb(145, 148, 150);
+	transition-duration: 0.5s;
+}
+
+.abertas{
+	display: flex;
+	flex-direction: column;
+	margin-left: 250px;
+	border: none;
+	border-radius: 600px;
+	outline: none;
+	height: 40px;
+	width: 350px;
+	margin-top: 10px;
+	
+}
+
+
+.abertas-nome{
+	margin-top: 240px;
+}
+
+.abertas::-webkit-input-placeholder{
+font-weight: bold;
+color: black;
+}
+
+.mult{
+	display: flex;
+	flex-direction: column;
+}
+
+.verfal{
+	display: flex;
+	flex-direction: column;
+}
+
+.mult{
+	display: flex;
+	flex-direction: column;
+	margin-left: 250px;
+	border: none;
+	border-radius: 600px;
+	outline: none;
+	height: 40px;
+	width: 350px;
+	margin-top: 10px;
+	
+}
+
+
+.mult-nome{
+	margin-top: 240px;
+}
+
+.mult::-webkit-input-placeholder{
+font-weight: bold;
+color: black;
+}
+
+.verfal{
+	display: flex;
+	flex-direction: column;
+	margin-left: 250px;
+	border: none;
+	border-radius: 600px;
+	outline: none;
+	height: 40px;
+	width: 350px;
+	margin-top: 10px;
+	
+}
+
+
+.verfal-nome{
+	margin-top: 240px;
+}
+
+.verfal::-webkit-input-placeholder{
+font-weight: bold;
+color: black;
+}
+
+.button{
+  height: 40px;
+  width: 150px;
+  border-radius: 600px;
+  border: none;
+  transition-duration: 1s;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 20px;
+	outline: none;
+	margin-left: 345px;
+}
+
+.equipe{
+	display: flex;
+	flex-direction: column;
+	margin-left: 250px;
+	border: none;
+	border-radius: 600px;
+	outline: none;
+	height: 40px;
+	width: 350px;
+	margin-top: 10px;
+}
+
+
+.equipe-nome{
+	margin-top: 240px;
+}
+
+.equipe::-webkit-input-placeholder{
+font-weight: bold;
+color: black;
+}
+
+.evento{
+	display: flex;
+	flex-direction: column;
+	margin-left: 250px;
+	border: none;
+	border-radius: 600px;
+	outline: none;
+	height: 40px;
+	width: 350px;
+	margin-top: 10px;
+}
+
+
+.evento-nome{
+	margin-top: 240px;
+}
+
+.evento::-webkit-input-placeholder{
+font-weight: bold;
+color: black;
+}

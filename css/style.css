@@ -1,0 +1,70 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Circular, spotify-circular,   Helvetica, Arial, sans-serif !important;
+}
+
+body{
+background-image: url('../imagens/background.png');
+}
+
+.imgtech{
+  height: 200px;
+  margin-left: 600px;
+  margin-top: 100px;
+  display: block;
+  border-radius: 10px;
+}
+
+.login{
+  height: 40px;
+  width: 350px;
+  border: none;
+  border-radius: 600px;
+  background-color: white;
+  display: block;
+  margin-left: 650px;
+  outline: none;
+}
+
+.botao{
+  height: 30px;
+  width: 100px;
+  border-radius: 600px;
+  border: none;
+  transition-duration: 1s;
+  margin-top: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.login-user{
+  margin-top: 10px;
+}
+.login-senha{
+  margin-top: 5px;
+}
+
+.botao-submit:hover{
+  background-color: gray;
+}
+
+.botao-signin:hover{
+color: white;
+}
+
+.botao-submit{
+  margin-left: 700px;
+}
+
+.botao-signin{
+  margin-left: 45px;
+  background-color: rgb(110, 67, 164);
+  font-weight: bold;
+}
+
+.login::-webkit-input-placeholder{
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+font-weight: bold;
+}
